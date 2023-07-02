@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif; 
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* header part css start */
+
+header {
+  background-image: url(../image/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* header part css end */
+
+/* navbar part css start */
+
+.navbar-brand {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.navbar-brand span {
+  font-size: 21px;
+  font-weight: 900;
+  font-style: italic;
+  color: #FFF;
+}
+
+/* navbar part css end */
+
+/* banner part css start */
+
+.banner_text {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+}
+
+.banner_text h4 {
+  font-weight: 300;
+  font-size: 60px;
+  padding-top: 300px;
+}
+
+.banner_text p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-right: 30px;
+}
+
+.banner_content {
+  text-align: center;
+}
+
+.banner_content img {
+  width: 100%;
+  transform: translateY(220px);
+}
+
+/* banner part css end */
+
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* text part css start */
+
+.text {
+  padding: 50px 0;
+}
+
+.text_content {
+  text-align: left;
+  padding: 20px 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+
+.text_content h4 {
+  font-weight: 300;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+.text_content p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #959595;
+  padding: 8px 0;
+  padding-right: 20px;
+}
+
+.text2 p:nth-child(1) {
+  padding-top: 130px;
+}
+
+/* text part css end */
+
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* box_grid part css start */
+
+.box_grid {
+  padding: 50px 0;
+}
+
+.pink {
+  background-color: #f5989d;
+  transition: all .6s;
+}
+
+.pink:hover {
+  background: #EF476F;
+}
+
+.indigo {
+  background-color: #615f7d;
+  transition: all .6s;
+}
+
+.indigo:hover {
+  background: #4D243D;
+}
+
+.pic1 {
+  background: url(../image/gly-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all .6s;
+}
+
+.pic1:hover {
+  background: url(../image/gly-1.1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pic2 {
+  background: url(../image/gly-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all .6s;
+}
+
+.pic2:hover {
+  background: url(../image/gly-2.1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.green {
+  background: #82ca9c;
+  transition: all .6s;
+}
+
+.green:hover {
+  background-color: #243E36;
+}
+
+.grd_content {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  color: #FFF;
+  padding: 50px 40px;
+}
+
+.grd_content h4 {
+  font-weight: 300;
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+.grd_content p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 35px;
+}
+
+.grd_content a {
+  font-weight: 700;
+  font-size: 13px;
+  color: #FFF;
+}
+
+.pic2 p {
+  padding-bottom: 55px;
+}
+
+/* box_grid part css end */
+
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* details part css start */
+
+.details {
+  padding: 50px 0;
+}
+
+.details_heading {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.details_heading h4 {
+  font-weight: 300;
+  font-size: 40px;
+  padding-bottom: 55px;
+}
+
+.det_text h4 {
+  font-weight: 600;
+  font-size: 13px;
+  padding-bottom: 30px;
+  color: #67676d;
+}
+
+.det_text p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #959595;
+}
+
+/* details part css end */
+
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* full_img part css start */
+
+.full_img {
+  background: url(../image/banner-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 135px 0;
+}
+
+.fl_text {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+}
+
+.fl_text h4 {
+  font-weight: 300;
+  font-size: 60px;
+  padding-top: 300px;
+  padding-bottom: 40px;
+}
+
+.fl_text p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
+.fl_text a {
+  color: #FFF;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+/* full_img part css end */
+
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* color part css start */
+
+.color {
+  background: #82ca9c;
+  padding: 120px 0;
+}
+
+.clr_head {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  text-align: left;
+}
+
+.clr_head h4 {
+  font-weight: 300;
+  font-size: 35px;
+  padding-bottom: 50px;
+}
+
+.clr_text {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.clr_text h4 {
+  font-weight: 600;
+  font-size: 13px;
+  padding-bottom: 30px;
+}
+
+.clr_text p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* color part css end */
+
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* buying part css start */
+
+.buying {
+  background: #f6f7fa;
+  padding: 105px 0;
+}
+
+.buy_content {
+  background: transparent;
+  font-family: 'Open Sans', sans-serif;
+  padding: 50px 30px;
+  transition: all .5s;
+}
+
+.buy_content:hover {
+  background: #FFF;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buy_content:hover span {
+  background: #bd8cbf;
+}
+
+.buy_content span {
+  font-weight: 800;
+  font-size: 11px;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  background: #e1e1e1;
+  transition: all .5s;
+}
+
+.buy_content h4 {
+  font-weight: 300;
+  font-size: 30px;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.buy_content p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #8297a7;
+  padding-bottom: 25px;
+  margin: 0;
+}
+
+.buy_content a {
+  font-weight: 700;
+  font-size: 13px;
+  background: #82ca9c;
+  color: #FFF;
+  padding: 10px 25px;
+  border-radius: 4px;
+}
+
+.buy_content .buy_icon {
+  padding-top: 35px;
+  font-size: 26px;
+  color: #c5c5c5;
+}
+
+.buy_content .buy_icon i {
+  padding: 0 5px;
+}
+
+/* buying part css end */
+
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* footer part css start */
+
+.footer {
+  background: #192431;
+  padding: 120px 0;
+}
+
+.ftr_content {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  padding: 0 20px;
+}
+
+.ftr_content h4 {
+  font-weight: 600;
+  font-size: 13px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.ftr_content p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 70px;
+  margin: 0;
+}
+
+.ftr_link {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+}
+
+.ftr_link h4 {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.ftr_link a {
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  color: #FFF;
+}
+
+.ftr_input {
+  text-align: left;
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ftr_input h4 {
+  font-weight: 600;
+  font-size: 13px;
+  padding-bottom: 30px;
+}
+
+.ftr_input form {
+  display: grid;
+  grid-template-columns: 1fr 70px;
+  padding-bottom: 15px;
+}
+
+.ftr_input form input[type=text] {
+  grid-column: 1 / 2;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  height: 70px;
+  padding: 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.ftr_input form button {
+  grid-column: 2 / 3;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 70px;
+  height: 70px;
+  background: #82ca9c;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFF;
+}
+
+.ftr_input p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #46576a;
+  padding-right: 300px;
+}
+
+/* footer part css end */

@@ -1,0 +1,465 @@
+/* // ExtrasSmall devices (landscape phones, 576px and up) */
+@media (min-width: 400px) and (max-width: 575px) {
+
+  /* navbar part css start */
+
+  .navbar-brand {
+    padding: 20px 15px;
+  }
+
+  /* navbar part css end */
+
+  /* banner part css start */
+
+  .banner_text h4 {
+    font-size: 35px;
+    padding-top: 120px;
+  }
+
+  .banner_text p {
+    font-size: 11px;
+    padding-right: 0px;
+  }
+
+  .banner_content img {
+    width: 70%;
+    transform: translate(45px, 110px);
+    /* transform: translateY(100px); */
+  }
+
+  /* banner part css end */
+
+  /* text part css start */
+
+  .text_content {
+    padding: 11px 0;
+  }
+
+  .text_content h4 {
+    font-size: 24px;
+    padding-bottom: 5px;
+  }
+
+  .text_content p {
+    font-size: 11px;
+    padding: 7px 0;
+    padding-right: 30px;
+  }
+
+  .text2 p:nth-child(1) {
+    padding-top: 0px;
+  }
+
+  /* text part css end */
+
+  /* box_grid part css start */
+
+  .box_grid {
+    padding: 30px 0;
+  }
+
+  .grd_content h4 {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+
+  .grd_content p {
+    font-size: 11px;
+    padding-bottom: 20px;
+  }
+
+  /* box_grid part css end */
+
+  /* details part css start */
+
+  .details_heading h4 {
+    font-size: 25px;
+    padding-bottom: 35px;
+  }
+
+  .det_text p {
+    font-size: 12px;
+  }
+
+  /* details part css end */
+
+  /* full_img part css start */
+
+  .fl_text h4 {
+    font-size: 30px;
+    padding-top: 90px;
+    padding-bottom: 45px;
+  }
+
+  .fl_text p {
+    font-size: 11px;
+    padding-bottom: 15px;
+  }
+
+  /* full_img part css end */
+
+  /* color part css start */
+
+  .color {
+    padding: 80px 0;
+  }
+
+  .clr_head h4 {
+    font-size: 28px;
+    padding-bottom: 30px;
+  }
+
+  .clr_text h4 {
+    padding-bottom: 20px;
+  }
+
+  .clr_text p {
+    font-size: 11px;
+  }
+
+  /* color part css end */
+
+  /* buying part css start */
+
+  .buying {
+    padding: 70px 0;
+  }
+
+  .buy_content {
+    padding: 30px 25px;
+    margin: 20px 0;
+  }
+
+  .buy_content h4 {
+    font-size: 24px;
+    padding: 15px 0;
+  }
+
+  .buy_content p {
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+
+  .buy_content a {
+    font-size: 11px;
+  }
+
+  /* buying part css end */
+
+  /* footer part css start */
+
+  .footer {
+    padding: 65px 0;
+  }
+
+  .ftr_link {
+    padding-bottom: 35px;
+  }
+
+  .ftr_content h4 {
+    padding-bottom: 25px;
+  }
+
+  .ftr_content p {
+    font-size: 11px;
+    padding-bottom: 50px;
+  }
+
+  .ftr_input {
+    text-align: center;
+  }
+
+  .ftr_input h4 {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+
+  .ftr_input p {
+    font-size: 13px;
+    padding-right: 0;
+    padding: 10px 20px;
+    margin: 0;
+  }
+
+  .ftr_input form {
+    grid-template-columns: 1fr 55px;
+  }
+
+  .ftr_input form input[type=text] {
+    height: 55px;
+  }
+
+  .ftr_input form button {
+    width: 55px;
+    height: 55px;
+  }
+
+  /* footer part css end */
+
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+  /* banner part css start */
+
+  .banner_text h4 {
+    font-size: 50px;
+    padding-top: 130px;
+  }
+
+  .banner_content img {
+    width: 55%;
+    transform: translate(106px, 110px);
+  }
+
+  /* banner part css end */
+
+  /* text part css start */
+
+  .text {
+    padding: 30px 0;
+  }
+
+  .text_content {
+    text-align: left;
+    padding: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+  }
+
+  .text_content p {
+    font-size: 13px;
+    padding: 7px 0;
+    padding-right: 25px;
+  }
+
+  .text2 p:nth-child(1) {
+    padding-top: 0px;
+  }
+
+  /* text part css end */
+
+  /* full_img part css start */
+
+  .full_img {
+    padding: 100px 0;
+  }
+
+  .fl_text h4 {
+    font-size: 50px;
+    padding-top: 200px;
+  }
+
+  /* full_img part css end */
+
+  /* color part css start */
+
+  .color {
+    padding: 100px 0;
+  }
+
+  .clr_text p {
+    padding-bottom: 20px;
+  }
+
+  /* color part css end */
+
+  /* buying part css start */
+
+  .buy_content {
+    padding: 40px 30px;
+    margin: 20px 0;
+  }
+
+  /* buying part css end */
+
+  /* footer part css start */
+
+  .ftr_link {
+    margin-bottom: 30px;
+  }
+
+  .ftr_input form {
+    grid-template-columns: 1fr 60px;
+  }
+
+  .ftr_input form input[type=text] {
+    height: 60px;
+  }
+
+  .ftr_input form button {
+    width: 60px;
+    height: 60px;
+  }
+
+  .ftr_input p {
+    padding-right: 150px;
+  }
+
+  /* footer part css end */
+
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* bannner part css start */
+
+  .banner_text h4 {
+    font-size: 50px;
+    padding-top: 150px;
+  }
+
+  .banner_content img {
+    width: 100%;
+    transform: translateY(165px);
+  }
+
+  /* bannner part css end */
+
+  /* text part css start */
+
+  .text2 p:nth-child(1) {
+    padding-top: 120px;
+  }
+
+  .text_content p {
+    font-size: 13px;
+    padding-right: 15px;
+  }
+
+  /* text part css end */
+
+  /* box_grid part css start */
+
+  .grd_content h4 {
+    font-weight: 300;
+    font-size: 21px;
+    padding-bottom: 15px;
+  }
+
+  .grd_content p {
+    font-size: 12px;
+    padding-bottom: 15px;
+  }
+
+  .pic2 p {
+    padding-bottom: 87px;
+  }
+
+  /* box_grid part css end */
+
+  /* details part css start */
+
+  .details_heading h4 {
+    font-size: 35px;
+    padding-bottom: 45px;
+  }
+
+  /* details part css end */
+
+  /* full_img part css start */
+
+  .full_img {
+    padding: 80px 0;
+  }
+
+  .fl_text h4 {
+    font-size: 47px;
+    padding-top: 130px;
+  }
+
+  .fl_text p {
+    font-size: 12px;
+    padding-bottom: 14px;
+  }
+
+  /* full_img part css end */
+
+  /* color part css start */
+
+  .color {
+    padding: 90px 0;
+  }
+
+  .clr_head h4 {
+    padding-bottom: 35px;
+  }
+
+  .clr_text {
+    padding-right: 0px;
+  }
+
+  /* color part css end */
+
+  /* buying part css start */
+
+  .buying {
+    padding: 80px 0;
+  }
+
+  /* buying part css end */
+
+  /* footer part css start */
+
+  .footer {
+    padding: 95px 0;
+  }
+
+  .ftr_content p {
+    padding-bottom: 50px;
+  }
+
+  .ftr_input p {
+    padding-right: 50px;
+  }
+
+  /* footer part css end */
+
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* box_grid part css start */
+
+  .pic2 p {
+    padding-bottom: 93px;
+  }
+
+  /* box_grid part css end */
+
+}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+  /* full_img part css start */
+
+  .fl_text h4 {
+    font-size: 55px;
+    padding-top: 220px;
+  }
+
+  /* full_img part css end */
+
+}
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+  /* box_grid part css start */
+
+  .pic2 p {
+    padding-bottom: 55px;
+  }
+
+  /* box_grid part css end */
+
+}
